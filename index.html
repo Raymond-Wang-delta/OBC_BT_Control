@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>iOS Innergie Power Plus 安裝頁面</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #1a237e;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+      padding: 0 1rem;
+    }
+    h2 {
+      font-weight: 700;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    a.install-link {
+      background-color: #ff7043;
+      color: white;
+      text-decoration: none;
+      padding: 1rem 2.5rem;
+      font-size: 1.2rem;
+      border-radius: 40px;
+      box-shadow: 0 4px 12px rgba(255, 112, 67, 0.7);
+      transition: background-color 0.3s ease;
+      display: inline-block;
+    }
+    a.install-link:hover {
+      background-color: #e64a19;
+    }
+    .release-notes {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      font-weight: normal;
+      line-height: 1.6;
+    }
+    
+  </style>
+</head>
+<body>
+  <h2>點擊下面連結安裝 Innergie Power Plus</h2>
+  <a
+    href="itms-services://?action=download-manifest&url=https://raymond-wang-delta.github.io/Innegie_Power_Plus/manifest.plist"
+    class="install-link"
+  >
+    👉 點我安裝 Innergie Power Plus iOS App V0.3
+  </a>
+  <div class="release-notes">
+    <strong>版本 0.0 (2025-06-06) 更新說明：初版 Innergie Power + APP</strong><br />
+    <strong>版本 0.1 (2025-06-12) 更新說明：修復 iOS 藍芽連線異常問題</strong><br />
+    <strong>版本 0.2 (2025-10-14) 更新說明：電池使用頁面新增Error Code檢查功能</strong><br />
+    <strong>版本 0.3 (2025-10-30) 更新說明：電池新增排序，新電池在列表中最上方。加入刪除電池功能，長按列表中的電池即可刪除</strong><br />
+  </div>
+</body>
+</html>
